@@ -27,6 +27,7 @@ public class Movimentacao : MonoBehaviour
         {
             transform.Translate(0,-0.05f, 0);
         }
+
         Physics.CheckSphere(transform.position, 1f);
     }
 }

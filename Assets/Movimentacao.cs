@@ -13,19 +13,19 @@ public class Movimentacao : MonoBehaviour
     {
         if(Input.GetKey("d"))
         {
-            transform.Translate(-0.05f, 0, 0);
+            transform.Translate(-0.03f, 0, 0);
         }
         if (Input.GetKey("a"))
         {
-            transform.Translate(0.05f, 0, 0);
+            transform.Translate(0.03f, 0, 0);
         }
         if (Input.GetKey("w"))
         {
-            transform.Translate(0,0.05f, 0);
+            transform.Translate(0,0.03f, 0);
         }
-        if (Input.GetKey("x"))
+        if (Input.GetKey("s"))
         {
-            transform.Translate(0,-0.05f, 0);
+            transform.Translate(0,-0.03f, 0);
         }
 
         Physics.CheckSphere(transform.position, 1f);

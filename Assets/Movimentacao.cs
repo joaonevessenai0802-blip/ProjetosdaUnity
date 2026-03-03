@@ -31,3 +31,5 @@ public class Movimentacao : MonoBehaviour
         Physics.CheckSphere(transform.position, 1f);
     }
 }
+
+//Destroy(this.gameobject);
